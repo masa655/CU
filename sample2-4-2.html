@@ -16,7 +16,8 @@
       let msg;
 
       if(a<b){msg="bが大きい"}
-      else{msg="bは大きくない"}
+      else if(b<a){msg="aが大きい"}
+      else{msg="aとbは同じ"}
 
       document.write(msg);
 
